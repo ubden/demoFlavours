@@ -1,0 +1,26 @@
+.team {
+    background-image: url("/src/assets/images/staffbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.team img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    transition: .2s ease-in;
+}
+.team-columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;  
+}
+.team-column {
+    flex: 1;
+    margin: 2rem 5rem;
+}
+.team-column p {
+  min-width: 20rem;
+  text-align: center;
+}

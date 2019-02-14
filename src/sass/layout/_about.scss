@@ -1,0 +1,23 @@
+.about {
+    text-align: center;
+}
+.about-columns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.about-column {
+    margin: 2rem 2rem;
+}
+.about-column p {
+    font-size: 16px;
+    max-width: 450px;
+    text-align: justify;
+    color: $text-primary;
+}
+.about-column p:nth-child(n+2) {
+    padding: 2rem 0;
+}

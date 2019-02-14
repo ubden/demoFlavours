@@ -1,0 +1,19 @@
+// Base
+@import "base/variables";
+@import "base/base";
+@import "base/typography";
+
+
+// Layout
+@import "layout/header";
+@import "layout/nav";
+@import "layout/about";
+@import "layout/reservation";
+@import "layout/team";
+@import "layout/gallery";
+@import "layout/footer.scss";
+
+// Components
+@import "components/animation";
+@import "components/buttons";
+@import "components/utilities";

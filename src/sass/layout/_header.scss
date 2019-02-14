@@ -1,0 +1,40 @@
+.headerbg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/src/assets/images/headerbg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 15s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slideBg {
+    0% {
+        background-image: url("/src/assets/images/headerbg.jpg");
+    }
+    25% {
+        background-image: url("/src/assets/images/headerbg2.jpg");
+    }
+    50% {
+        background-image: url("/src/assets/images/headerbg3.jpg");
+    }
+    75% {
+        background-image: url("/src/assets/images/headerbg4.jpg");
+    }
+    100% {
+        background-image: url("/src/assets/images/headerbg.jpg"); 
+    }
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+.main-content p {
+    font-size: 1.5rem;
+}
