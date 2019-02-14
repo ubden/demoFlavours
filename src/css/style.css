@@ -413,7 +413,7 @@ textarea:focus {
 }
 
 .team {
-  background-image: url("/src/assets/images/staffbg.jpg");
+  background-image: url("../assets/images/staffbg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -444,7 +444,7 @@ textarea:focus {
 }
 
 .gallery {
-  background-image: url("/src/assets/images/staffbg.jpg");
+  background-image: url("../assets/images/staffbg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
