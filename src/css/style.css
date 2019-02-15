@@ -72,7 +72,6 @@ h4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  backface-visibility: hidden;
 }
 
 .main-content {
@@ -396,7 +395,6 @@ textarea:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .team img {
@@ -427,7 +425,6 @@ textarea:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .gallery img {
