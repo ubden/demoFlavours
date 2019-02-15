@@ -70,39 +70,9 @@ h4 {
   height: 100vh;
   background-image: url("../assets/images/headerbg.jpg");
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-animation: slideBg 10s linear infinite 0s;
-          animation: slideBg 10s linear infinite 0s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-}
-
-@-webkit-keyframes slideBg {
-  0% {
-    background-image: url("../assets/images/headerbg.jpg");
-  }
-  50% {
-    background-image: url("../assets/images/headerbg2.jpg");
-  }
-  100% {
-    background-image: url("../assets/images/headerbg.jpg");
-  }
-}
-
-@keyframes slideBg {
-  0% {
-    background-image: url("../assets/images/headerbg.jpg");
-  }
-  50% {
-    background-image: url("../assets/images/headerbg2.jpg");
-  }
-  100% {
-    background-image: url("../assets/images/headerbg.jpg");
-  }
+  backface-visibility: hidden;
 }
 
 .main-content {
