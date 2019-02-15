@@ -92,6 +92,7 @@ h4 {
     background-image: url("../assets/images/headerbg.jpg");
   }
 }
+
 @keyframes slideBg {
   0% {
     background-image: url("../assets/images/headerbg.jpg");
@@ -102,6 +103,7 @@ h4 {
   100% {
     background-image: url("../assets/images/headerbg.jpg");
   }
+}
 
 .main-content {
   display: flex;
