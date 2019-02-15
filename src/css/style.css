@@ -74,7 +74,7 @@ h4 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  animation: slideBg 15s linear infinite 0s;
+  animation: slideBg 10s linear infinite 0s;
   animation-timing-function: ease-in-out;
 }
 
@@ -82,14 +82,8 @@ h4 {
   0% {
     background-image: url("../assets/images/headerbg.jpg");
   }
-  25% {
-    background-image: url("../assets/images/headerbg2.jpg");
-  }
   50% {
-    background-image: url("../assets/images/headerbg3.jpg");
-  }
-  75% {
-    background-image: url("../assets/images/headerbg4.jpg");
+    background-image: url("../assets/images/headerbg2.jpg");
   }
   100% {
     background-image: url("../assets/images/headerbg.jpg");
