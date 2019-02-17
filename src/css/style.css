@@ -28,6 +28,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .container {
+    padding: 3rem 0;
+  }
+}
+
 h1 {
   font-size: 4rem;
   text-transform: uppercase;
@@ -321,9 +327,9 @@ form {
   border: 0.1rem solid #E4BB7A;
 }
 
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 31.25em) {
   form {
-    padding: 0;
+    width: 95%;
   }
 }
 
@@ -402,6 +408,12 @@ textarea:focus {
   max-width: 100%;
   vertical-align: middle;
   transition: .2s ease-in;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .team img {
+    height: 20rem;
+  }
 }
 
 .team-columns {
@@ -527,6 +539,12 @@ textarea:focus {
   width: 7rem;
   height: 1rem;
   background: url("../assets/images/header-arrow.png");
+}
+
+@media only screen and (max-width: 31.25em) {
+  .arrow {
+    margin: 3rem 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

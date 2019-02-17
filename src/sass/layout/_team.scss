@@ -9,6 +9,10 @@
     max-width: 100%;
     vertical-align: middle;
     transition: .2s ease-in;
+
+    @media only screen and (max-width: $bp-small) {
+        height: 20rem;
+    } 
 }
 .team-columns {
 	display: flex;

@@ -23,9 +23,9 @@ form {
     box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
     border: .1rem solid $gold;
 
-    @media screen and (max-width: 720px) {
-        padding: 0;
-    }
+    @media only screen and (max-width: $bp-small) {
+        width: 95%;
+    } 
 }
 input,
 select,
