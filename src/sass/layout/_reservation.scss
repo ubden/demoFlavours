@@ -1,83 +1,37 @@
-// Reservation Section
+// Reservation
 .reservation {
-    background: $white;
-    text-align: center;
-}
-.reservation p {
-    color: $text-primary;
-    font-size: 2rem;
+    display: flex;
 }
 
-// Reservation Booking Form
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-form {
+    padding: 5rem;
 }
-form {
-    width: 75%;
-    max-width: 100rem;
-    min-width: 30rem;
-    padding: 2rem;
-    border-radius: .25rem;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
-    border: .1rem solid $gold;
 
-    @media only screen and (max-width: $bp-small) {
-        width: 95%;
-    } 
+.reservation .map, .reservation .contact-form {
+    flex: 1;
 }
-input,
-select,
-textarea {
-    padding: .5rem;
-    color: #333;
-    font-size: 1.6rem;
-    background: $secondary-white;
-    border: .1rem solid #CCC;
-    border-width: .1rem .1rem .1rem 0;
-    transition: 0.3s;
+
+.reservation .contact-form .form-group {
+    margin: 0.75rem;
 }
-input:focus,
-select:focus,
-textarea:focus {
-    background: $white;
-    box-shadow: inset .1rem .1rem .25rem rga(0, 0, 0, .2);
-    outline: 0;
+
+.reservation .contact-form label {
+    display: block;
 }
-.form-field {
-    display: flex;
-    margin-bottom: 1rem;
-    label {
-        flex: 0 1 8rem;
-        padding: 1rem;
-        background: $white;
-        border: .1rem solid #CCC;
-        color: #2d2d2d;   
-        font-weight: 400;
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        text-align: center;
-        text-shadow: 0 .1rem 0 $white;
-    }
-    input,
-    select,
-    textarea {
-        flex: 1;
-    }
-    @media screen and (max-width: 720px) {
-        flex-wrap: wrap;
-        label {
-        flex: 1;
-        }
-        input,
-        select,
-        textarea {
-        flex: 1 1 100%;
-        padding: .5rem;
-        }
-    }
+
+.reservation .contact-form input,
+.reservation .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
 }
-.submit-field {
-    flex-direction: row-reverse;
+
+@media only screen and (max-width: $bp-small) {
+    .reservation {
+        flex-direction: column;
+      }
+    
+      .reservation .map {
+        height: 200px;
+        border-top: 4px solid #333;
+      }
 }

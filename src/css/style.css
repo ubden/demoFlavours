@@ -302,98 +302,39 @@ nav {
 }
 
 .reservation {
-  background: #FFF;
-  text-align: center;
-}
-
-.reservation p {
-  color: #A5A5A5;
-  font-size: 2rem;
-}
-
-.form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-form {
-  width: 75%;
-  max-width: 100rem;
-  min-width: 30rem;
-  padding: 2rem;
-  border-radius: .25rem;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-  border: 0.1rem solid #E4BB7A;
+.contact-form {
+  padding: 5rem;
 }
 
-@media only screen and (max-width: 31.25em) {
-  form {
-    width: 95%;
-  }
-}
-
-input,
-select,
-textarea {
-  padding: .5rem;
-  color: #333;
-  font-size: 1.6rem;
-  background: #F4F4F4;
-  border: .1rem solid #CCC;
-  border-width: .1rem .1rem .1rem 0;
-  transition: 0.3s;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-  background: #FFF;
-  box-shadow: inset 0.1rem 0.1rem 0.25rem rga(0, 0, 0, 0.2);
-  outline: 0;
-}
-
-.form-field {
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.form-field label {
-  flex: 0 1 8rem;
-  padding: 1rem;
-  background: #FFF;
-  border: .1rem solid #CCC;
-  color: #2d2d2d;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  text-align: center;
-  text-shadow: 0 0.1rem 0 #FFF;
-}
-
-.form-field input,
-.form-field select,
-.form-field textarea {
+.reservation .map, .reservation .contact-form {
   flex: 1;
 }
 
-@media screen and (max-width: 720px) {
-  .form-field {
-    flex-wrap: wrap;
-  }
-  .form-field label {
-    flex: 1;
-  }
-  .form-field input,
-  .form-field select,
-  .form-field textarea {
-    flex: 1 1 100%;
-    padding: .5rem;
-  }
+.reservation .contact-form .form-group {
+  margin: 0.75rem;
 }
 
-.submit-field {
-  flex-direction: row-reverse;
+.reservation .contact-form label {
+  display: block;
+}
+
+.reservation .contact-form input,
+.reservation .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .reservation {
+    flex-direction: column;
+  }
+  .reservation .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
 }
 
 .team {
