@@ -3,7 +3,7 @@
 Flavours is a modern, and responsive website for a fictional restaurant.
 
 ## Live Demo:
-www.jazdosanjh.com/flavours
+https://www.jazdosanjh.com/flavours
 
 ## Built With
 
