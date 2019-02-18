@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Flavours is a modern fictional restaurant website made using HTML5, CSS3, and JavaScript.">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -141,28 +141,28 @@
             <p class="text-primary">Book a table online.</p>
             <form>
                 <div class="form-field multi-input">
-                    <label for="name">Name</label>
+                    <label for="name" class="text-primary">Name</label>
                     <input type="text" id="name" placeholder="Please enter your name here">
                 </div>
                 <div class="form-field input-right">
-                    <label for="phone">Phone</label>
+                    <label for="phone" class="text-primary">Phone Number</label>
                     <input type="number" id="phone" placeholder="Please enter your contact number here">
                 </div>
                 <div class="form-field input-right">
-                    <label for="email">Email</label>
+                    <label for="email" class="text-primary">Email Address</label>
                     <input type="email" id="email" placeholder="Please enter your email address here">
                 </div>
                 <div class="form-field input-right">
-                    <label for="booking">Date</label>
+                    <label for="booking" class="text-primary">Date</label>
                     <input type="datetime-local" id="booking" value="2019-02-10T15:30" min="2019-02-10T00:00"
                         max="2019-02-10T00:00">
                 </div>
                 <div class="form-field input-right">
-                    <label for="guests">Guests</label>
+                    <label for="guests" class="text-primary">Number of Guests</label>
                     <input type="number" id="guests" placeholder="Please enter the number of guests here">
                 </div>
                 <div class="form-field input-right">
-                    <label for="message">Message</label>
+                    <label for="message" class="text-primary">Message</label>
                     <textarea rows="6" id="message"
                         placeholder="Please enter your message here (any special requirements?)"></textarea>
                 </div>
@@ -178,14 +178,17 @@
             <h2 class="heading-primary">Gallery</h2>
             <div class="arrow"></div>
             <div class="img-grid">
-                <img src="./src/assets/images/g-img1.jpg" alt="">
-                <img src="./src/assets/images/g-img2.jpg" alt="">
-                <img src="./src/assets/images/g-img3.jpg" alt="">
-                <img src="./src/assets/images/g-img4.jpg" alt="">
-                <img src="./src/assets/images/g-img5.jpg" alt="">
-                <img src="./src/assets/images/g-img6.jpg" alt="">
-                <img src="./src/assets/images/g-img7.jpg" alt="">
-                <img src="./src/assets/images/g-img8.jpg" alt="">
+                <img src="./src/assets/images/g-img1.jpg" alt="A picture of a meal which is a fish.">
+                <img src="./src/assets/images/g-img2.jpg" alt="A picture of a meal which is beef.">
+                <img src="./src/assets/images/g-img3.jpg" alt="A picture of a meal which is a burger cut into half.">
+                <img src="./src/assets/images/g-img4.jpg" alt="A picture of a wine glass next to a bowl on a table.">
+                <img src="./src/assets/images/g-img5.jpg"
+                    alt="A picture of a meal which is chips with cheesey bread and some sauce.">
+                <img src="./src/assets/images/g-img6.jpg"
+                    alt="A picture of a meal which is salmon and some vegetables.">
+                <img src="./src/assets/images/g-img7.jpg" alt="A picture of a meal which is Sushi rolls.">
+                <img src="./src/assets/images/g-img8.jpg"
+                    alt="A picture of a meal which is beef and some green vegetables.">
             </div>
         </div>
     </section>
@@ -202,7 +205,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
-    async defer></script>
+        async defer></script>
     <script src="src/js/app.js"></script>
 </body>
 </html>
