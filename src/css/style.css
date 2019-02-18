@@ -324,7 +324,7 @@ nav {
 .reservation .contact-form input,
 .reservation .contact-form textarea {
   width: 100%;
-  padding: 0.5rem;
+  padding: .5rem;
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -332,8 +332,7 @@ nav {
     flex-direction: column;
   }
   .reservation .map {
-    height: 200px;
-    border-top: 4px solid #333;
+    height: 25rem;
   }
 }
 
