@@ -1,3 +1,4 @@
+// Nav
 $(document).ready(function(){
     $(".button a").click(function(){
         $(".overlay").fadeToggle(200);
