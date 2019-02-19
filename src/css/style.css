@@ -30,7 +30,7 @@ body {
 
 @media only screen and (max-width: 31.25em) {
   .container {
-    padding: 3rem 0;
+    padding: 3rem 0 0 0;
   }
 }
 
@@ -65,10 +65,6 @@ h4 {
 
 .text-primary {
   color: #585858;
-}
-
-.text-secondary {
-  color: #FFF;
 }
 
 .headerbg {
@@ -368,7 +364,7 @@ h4 {
 .img-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 5px;
+  grid-gap: .5rem;
 }
 
 /* Bigger than Phones(tablet) */
@@ -386,7 +382,7 @@ h4 {
 }
 
 .footer {
-  background: black;
+  background: #000;
   grid-column: full-start / full-end;
   padding: 5rem;
 }
@@ -400,7 +396,7 @@ h4 {
 
 .nav__link:link, .nav__link:visited {
   font-size: 1.4rem;
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -411,7 +407,7 @@ h4 {
 
 .nav__link:hover, .nav__link:active {
   background-color: rgba(255, 255, 255, 0.05);
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
 }
 
 .copyright {

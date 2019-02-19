@@ -16,7 +16,7 @@
   .img-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
+    grid-gap: .5rem;
 }
   
 /* Bigger than Phones(tablet) */
