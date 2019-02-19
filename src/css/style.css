@@ -64,7 +64,7 @@ h4 {
 }
 
 .text-primary {
-  color: #A5A5A5;
+  color: #585858;
 }
 
 .text-secondary {
@@ -78,6 +78,12 @@ h4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .headerbg {
+    background-image: url("../assets/images/headerbgsm.jpg");
+  }
 }
 
 .main-content {
@@ -294,7 +300,7 @@ nav {
   font-size: 16px;
   max-width: 450px;
   text-align: justify;
-  color: #A5A5A5;
+  color: #585858;
 }
 
 .about-column p:nth-child(n+2) {
