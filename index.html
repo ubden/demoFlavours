@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Flavours is a modern fictional restaurant website made using HTML5, CSS3, and JavaScript.">
+    <meta name="description"
+        content="Flavours is a modern fictional restaurant website made using HTML5, CSS3, and JavaScript.">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -13,75 +15,31 @@
     <link rel="preload" href="src/assets/images/headerbg.jpg" as="image" media="(min-width: 31.26em)">
     <link rel="preload" href="src/assets/images/headerbgsm.jpg" as="image" media="(max-width: 31.25em)">
 </head>
+
 <body>
     <div class="headerbg">
         <header>
-            <nav>
-                <div class="button">
-                    <a class="btn-open" href="#"></a>
-                </div>
-            </nav>
-            <div class="overlay">
-                <div class="wrap">
-                    <ul class="wrap-nav">
-                        <li><a href="#">About</a>
-                            <ul>
-                                <li><a href="#">The history</a></li>
-                                <li><a href="#">The team</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Services</a>
-                            <ul>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="#">Reservations</a></li>
-                                <li><a href="#">Private dining and events</a></li>
-                                <li><a href="#">Gifts and experiences</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Contact</a>
-                            <ul>
-                                <li><a href="#">Opening Hours</a></li>
-                                <li><a href="#">Location</a></li>
-                                <li><a href="#">Site policies</a></li>
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                        </li>
+            <div class="button-container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
-                    <div class="social">
-                        <a href="#">
-                            <div class="social-icon">
-                                <i class="fa fa-facebook"></i>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="social-icon">
-                                <i class="fa fa-twitter"></i>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="social-icon">
-                                <i class="fa fa-instagram"></i>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="social-icon">
-                                <i class="fa fa-linkedin"></i>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="social-icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                </nav>
             </div>
         </header>
         <section class="main-content">
             <h1>Flavours Restaurant</h1>
             <p>Imaginary Road, 2-5 Broadway, London AB1C 2DE</p>
             <div class="arrow"></div>
-            <button class="btn btn-header">Menu</button>
+            <button class="btn btn-header">Book Table</button>
         </section>
     </div>
     <section class="about">
@@ -186,8 +144,7 @@
                 <img src="./src/assets/images/gimg4.jpg" alt="A picture of a wine glass next to a bowl on a table.">
                 <img src="./src/assets/images/gimg5.jpg"
                     alt="A picture of a meal which is chips with cheesey bread and some sauce.">
-                <img src="./src/assets/images/gimg6.jpg"
-                    alt="A picture of a meal which is salmon and some vegetables.">
+                <img src="./src/assets/images/gimg6.jpg" alt="A picture of a meal which is salmon and some vegetables.">
                 <img src="./src/assets/images/gimg7.jpg" alt="A picture of a meal which is Sushi rolls.">
                 <img src="./src/assets/images/gimg8.jpg"
                     alt="A picture of a meal which is beef and some green vegetables.">
