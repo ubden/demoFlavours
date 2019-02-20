@@ -29,7 +29,7 @@
     padding: .5rem;
 }
 
-@media only screen and (max-width: $bp-small) {
+@media only screen and (max-width: $bp-xsmall) {
     .reservation {
         flex-direction: column;
       }

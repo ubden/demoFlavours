@@ -6,7 +6,7 @@
 	height: 1rem;
     background: url("../assets/images/header-arrow.png");
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-xsmall) {
         margin: 3rem 0;
     } 
 }

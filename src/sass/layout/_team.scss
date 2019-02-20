@@ -10,9 +10,9 @@
     vertical-align: middle;
     transition: .2s ease-in;
 
-    @media only screen and (max-width: $bp-small) {
-        height: 20rem;
-    } 
+    @media only screen and (max-width: $bp-medium) {
+        height: 15rem;
+    }
 }
 .team-columns {
 	display: flex;
@@ -22,8 +22,22 @@
 .team-column {
     flex: 1;
     margin: 2rem 5rem;
+    @media only screen and (max-width: $bp-medium) {
+        margin: 2rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        margin: 1rem;
+    }  
 }
 .team-column p {
-  min-width: 20rem;
-  text-align: center;
+    min-width: 20rem;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-small) {
+        min-width: 15rem;
+    }  
+
+    @media only screen and (max-width: $bp-xsmall) {
+        min-width: 25rem;
+    } 
 }
