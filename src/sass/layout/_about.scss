@@ -11,6 +11,9 @@
 }
 .about-column {
     margin: 0 2rem;
+    @media only screen and (max-width: $bp-xxl) {
+        margin: 0 1rem;
+    }
     @media only screen and (max-width: $bp-xl) {
         margin: 0 .5rem;
     }
@@ -22,10 +25,8 @@
     max-width: 45rem;
     text-align: justify;
     color: $text-primary;
+    padding-bottom: 2rem;
     @media only screen and (max-width: $bp-large) {
         max-width: 60rem;
     }
-}
-.about-column p:nth-child(n+2) {
-    padding: 2rem 0;
 }
