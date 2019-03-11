@@ -1,14 +1,17 @@
 // All Button Core Styles
 .btn {
-    width: 17.2rem;
-    height: 5rem;
+    padding: 15px 35px;
+    border: none;
     background-color: $gold;
-    line-height: 5rem;
-    font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
-    border: none;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+}
+
+.btn-header {
+    margin-top: 20px;
 }
 
 // Reservation Form Button

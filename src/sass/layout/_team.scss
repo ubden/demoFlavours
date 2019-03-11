@@ -5,39 +5,28 @@
     background-repeat: no-repeat;
 }
 .team img {
-    height: auto;
-    max-width: 100%;
+    height: 180px;
+    width: 180px;
     vertical-align: middle;
     transition: .2s ease-in;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 50%;
+}
 
-    @media only screen and (max-width: $bp-medium) {
-        height: 15rem;
-    }
+.team-img:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 .team-columns {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;  
+	justify-content: center;
 }
 .team-column {
     flex: 1;
-    margin: 2rem 5rem;
-    @media only screen and (max-width: $bp-medium) {
-        margin: 2rem;
-    }
-    @media only screen and (max-width: $bp-small) {
-        margin: 1rem;
-    }  
+    margin: 20px 30px;
 }
-.team-column p {
-    min-width: 20rem;
-    text-align: center;
 
-    @media only screen and (max-width: $bp-small) {
-        min-width: 15rem;
-    }  
-
-    @media only screen and (max-width: $bp-xsmall) {
-        min-width: 25rem;
-    } 
-}

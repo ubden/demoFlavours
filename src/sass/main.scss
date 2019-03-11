@@ -1,19 +1,24 @@
-// Base
-@import "base/variables";
-@import "base/base";
-@import "base/typography";
+@charset "utf-8";                    // Character type for the stylesheet
 
+// ITCSS: SETTINGS
+@import "base/variables";               // Color variables, and also media queries.
 
-// Layout
+// ITCSS: RESETS
+@import "../../node_modules/meyer-sass/meyer.scss";   // The Eric Meyers resets - Good for older browsers and fringe cases.
+@import "../../node_modules/normalize.css/normalize.css";  // Normalize.css - Good for mobile and modern browsers
+
+// ITCSS: GENERIC (ELEMENTS/BASE)
+@import "base/base";                    // h1, h2, h3, p, etc etc
+
+// ITCSS: OBJECTS - Grouped reusable chunks
+@import "components/nav";               // Animated burger menu
+@import "components/buttons";           // All buttons used on the page
+@import "components/animation";         // Content appear on scroll animation
+
+// ITCSS: COMPONENTS - Component-specific styles
 @import "layout/header";
-@import "layout/nav";
 @import "layout/about";
 @import "layout/reservation";
 @import "layout/team";
 @import "layout/gallery";
 @import "layout/footer.scss";
-
-// Components
-@import "components/animation";
-@import "components/buttons";
-@import "components/utilities";
