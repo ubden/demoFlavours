@@ -1,20 +1,20 @@
 // Heading Styles (H1, H2, H3 etc)
 h1 {
-    font-size: 4rem;
+    font-size: 40px;
     text-transform: uppercase;
 }
 h2 {
-    font-size: 3.5rem;
-    padding-bottom: 1rem;
+    font-size: 25px;
+    padding-bottom: 10px;
     text-transform: uppercase;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 30px;
     text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-bottom: 20px;
 }
 h4 {
-    padding: 2rem 0;
+    padding: 20px 0;
 }
 .heading-primary {
     color: $heading-primary;
