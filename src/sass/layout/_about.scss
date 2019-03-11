@@ -3,6 +3,7 @@
 
     p {
         font-size: 16px;
+        line-height: 25px;
     }
 }
 .about-columns {
@@ -17,11 +18,11 @@
 .about-column p {
     text-align: justify;
     color: $text-primary;
-    padding: 20px 10px;
+    padding: 15px 10px;
 }
 
 .about-img {
-    height: 180px;
+    height: 200px;
     width: 120px;
     padding: 0 10px;
 }

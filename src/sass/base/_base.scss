@@ -1,12 +1,35 @@
 body {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 1.6rem;
-    height: 100%;
     color: $white;
 }
 .container {
     padding: 20px 20px;
     text-align: center;
+}
+// Heading Styles (H1, H2, H3 etc)
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.heading-primary {
+    color: $heading-primary;
+}
+.heading-secondary {
+    color: $heading-secondary;
+}
+
+// Paragraph styles
+.text-primary {
+    color: $text-primary;
 }
