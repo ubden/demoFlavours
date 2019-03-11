@@ -1,22 +1,32 @@
 // Reservation
 .reservation {
     display: flex;
+    flex-direction: column;
+
+    p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 .contact-form {
-    padding: 5rem;
+    margin: 20px;
 }
 
 .contact-form label {
-    padding-top: 2rem;
+    padding: 15px 0 10px 0;
 }
 
 .reservation .map, .reservation .contact-form {
     flex: 1;
 }
 
-.reservation .contact-form .form-group {
-    margin: 0.75rem;
+// .reservation .contact-form .form-group {
+//     margin: 0.75rem;
+// }
+
+.reservation .map {
+    height: 200px;
 }
 
 .reservation .contact-form label {
@@ -26,15 +36,5 @@
 .reservation .contact-form input,
 .reservation .contact-form textarea {
     width: 100%;
-    padding: .5rem;
-}
-
-@media only screen and (max-width: $bp-xsmall) {
-    .reservation {
-        flex-direction: column;
-      }
-    
-      .reservation .map {
-        height: 25rem;
-      }
+    padding: 5px 0;
 }
