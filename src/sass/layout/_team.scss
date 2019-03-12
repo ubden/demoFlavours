@@ -4,16 +4,15 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.team img {
-    height: 180px;
-    width: 180px;
+.team-img {
+    width: auto;
     vertical-align: middle;
+    border-radius: 50%;
     transition: .2s ease-in;
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-    border-radius: 50%;
 }
 
 .team-img:hover {
@@ -23,10 +22,13 @@
 .team-columns {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+    justify-content: center;
 }
 .team-column {
     flex: 1;
-    margin: 20px 30px;
-}
+    margin: 20px 90px;
 
+    @media only screen and (min-width: $bp-med-lg) {
+    margin: 20px 0px;
+    }
+}
