@@ -429,6 +429,12 @@ h3 {
   flex-direction: column;
 }
 
+@media only screen and (min-width: 636px) {
+  .reservation {
+    flex-direction: row;
+  }
+}
+
 .reservation p {
   text-align: center;
   margin-bottom: 20px;
@@ -448,6 +454,12 @@ h3 {
 
 .reservation .map {
   height: 200px;
+}
+
+@media only screen and (min-width: 636px) {
+  .reservation .map {
+    height: auto;
+  }
 }
 
 .reservation .contact-form label {
