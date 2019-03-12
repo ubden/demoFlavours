@@ -12,23 +12,17 @@
     opacity: 0.5;
     cursor: pointer;
 }
-/* CSS Grid*/
-  .img-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
-}
-  
-/* Bigger than Phones(tablet) */
-@media only screen and (min-width: 750px) {
-    .img-grid {
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+
+  @media only screen and (min-width: $bp-medium-sm) {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-/* Bigger than Phones(laptop / desktop) */
-@media only screen and (min-width: 970px) {
-    .img-grid {
+
+  @media only screen and (min-width: $bp-med-lg) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-  
