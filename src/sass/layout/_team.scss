@@ -5,14 +5,14 @@
     background-repeat: no-repeat;
 }
 .team-img {
-    width: auto;
+    max-width: 100%;
     vertical-align: middle;
     border-radius: 50%;
     transition: .2s ease-in;
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .team-img:hover {
@@ -26,9 +26,10 @@
 }
 .team-column {
     flex: 1;
-    margin: 20px 90px;
+    margin: 20px 100px;
 
-    @media only screen and (min-width: $bp-med-lg) {
-    margin: 20px 0px;
+    @media only screen and (min-width: $bp-medium-sm) {
+        margin: 20px 30px;
     }
+
 }

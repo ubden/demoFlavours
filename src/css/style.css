@@ -70,7 +70,7 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   padding: 20px 0;
 }
@@ -237,6 +237,7 @@ h3 {
   padding: 15px 35px;
   border: none;
   background-color: #E4BB7A;
+  color: #FFF;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
@@ -249,17 +250,10 @@ h3 {
 }
 
 .btn-submit {
-  flex: 0 1 40%;
   margin-top: 1rem;
-  color: #000;
+  flex: 0 1 40%;
   background: #E4BB7A;
   transition: 0.3s;
-}
-
-@media screen and (max-width: 1200px) {
-  .btn-submit {
-    flex: 0 1 100%;
-  }
 }
 
 .hidden {
@@ -480,7 +474,7 @@ h3 {
 }
 
 .team-img {
-  width: auto;
+  max-width: 100%;
   vertical-align: middle;
   border-radius: 50%;
   transition: .2s ease-in;
@@ -503,12 +497,12 @@ h3 {
 
 .team-column {
   flex: 1;
-  margin: 20px 90px;
+  margin: 20px 100px;
 }
 
-@media only screen and (min-width: 957px) {
+@media only screen and (min-width: 530px) {
   .team-column {
-    margin: 20px 0px;
+    margin: 20px 30px;
   }
 }
 
