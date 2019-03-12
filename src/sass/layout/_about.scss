@@ -27,7 +27,7 @@
     @media only screen and (min-width: $bp-medium) {
         max-width: 550px;
     }
-    @media only screen and (min-width: $bp-large) {
+    @media only screen and (min-width: $bp-xl) {
         max-width: 300px;
         padding: 0 10px;
     }
@@ -59,7 +59,7 @@
         width: auto;
         margin: 0;
     }
-    @media only screen and (min-width: $bp-large) {
+    @media only screen and (min-width: $bp-xl) {
         max-width: 300px;
         padding: 0 10px;
     }

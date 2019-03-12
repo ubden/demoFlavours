@@ -8,7 +8,7 @@
         content="Flavours is a modern fictional restaurant website made using HTML5, CSS3, and JavaScript.">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Flavours</title>
     <link rel="preload" href="src/assets/images/headerbg.jpg" as="image" media="(min-width: 31.26em)">
@@ -40,106 +40,143 @@
         </section>
     </div>
     <main>
-    <section class="about">
-        <div class="container hidden">
-            <h2 class="heading-secondary">The Restaurant</h2>
-            <p class="text-primary">A little about us and a brief history of how we started</p>
-            <div class="arrow"></div>
-            <div class="about-columns">
-                <div class="about-column">
-                    <img class="about-img" src="./src/assets/images/about1.jpg" alt="Image of a bit of steak on a plate with sauce.">
-                </div>
-                <div class="about-column">
-                    <img class="about-img" src="./src/assets/images/about2.jpg" alt="Image of sea food with a glass of red wine.">
-                </div>
-                <div class="about-column">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nesciunt officiis quibusdam,
-                        cupiditate deleniti eligendi voluptas ullam ipsum error quam, repudiandae aut magnam suscipit
-                        laborum fugiat alias? laborum voluptas ipsum.</p>
+        <section class="about">
+            <div class="container hidden">
+                <h2 class="heading-secondary">The Restaurant</h2>
+                <p class="text-primary">A little about us and a brief history of how we started</p>
+                <div class="arrow"></div>
+                <div class="about-columns">
+                    <div class="about-column">
+                        <img class="about-img" src="./src/assets/images/about1.jpg"
+                            alt="Image of a bit of steak on a plate with sauce.">
+                    </div>
+                    <div class="about-column">
+                        <img class="about-img" src="./src/assets/images/about2.jpg"
+                            alt="Image of sea food with a glass of red wine.">
+                    </div>
+                    <div class="about-column">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nesciunt officiis quibusdam,
-                            cupiditate deleniti eligendi voluptas ullam ipsum error quam, repudiandae aut magnam suscipit
+                            cupiditate deleniti eligendi voluptas ullam ipsum error quam, repudiandae aut magnam
+                            suscipit
                             laborum fugiat alias? laborum voluptas ipsum.</p>
-                    <img class="signature" src="./src/assets/images/signature.png" alt="Image of a signature.">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nesciunt officiis quibusdam,
+                            cupiditate deleniti eligendi voluptas ullam ipsum error quam, repudiandae aut magnam
+                            suscipit
+                            laborum fugiat alias? laborum voluptas ipsum.</p>
+                        <img class="signature" src="./src/assets/images/signature.png" alt="Image of a signature.">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="team">
-        <div class="container hidden">
-            <h2 class="heading-primary">Meet our chefs</h2>
-            <div class="arrow"></div>
-            <div class="team-columns">
-                <div class="team-column">
-                    <img class="team-img" src="./src/assets/images/staff1.png" alt="Picture of the chef - James Ramsey." />
-                    <h3>James Ramsey</h3>
-                </div>
-                <div class="team-column">
-                    <img class="team-img" src="./src/assets/images/staff3.jpg" alt="Picture of the chef - Olivia Picasio." />
-                    <h3>Olivia Picasio</h3>
-                </div>
-                <div class="team-column">
-                    <img class="team-img" src="./src/assets/images/staff2.jpg" alt="Picture of the chef - Samuel Tarly." />
-                    <h3>Samuel Tarly</h3>
+        </section>
+        <section class="team">
+            <div class="container hidden">
+                <h2 class="heading-primary">Meet our chefs</h2>
+                <div class="arrow"></div>
+                <div class="team-columns">
+                    <div class="team-column">
+                        <img class="team-img" src="./src/assets/images/staff1.png"
+                            alt="Picture of the chef - James Ramsey." />
+                        <h3>James Ramsey</h3>
+                    </div>
+                    <div class="team-column">
+                        <img class="team-img" src="./src/assets/images/staff3.jpg"
+                            alt="Picture of the chef - Olivia Picasio." />
+                        <h3>Olivia Picasio</h3>
+                    </div>
+                    <div class="team-column">
+                        <img class="team-img" src="./src/assets/images/staff2.jpg"
+                            alt="Picture of the chef - Samuel Tarly." />
+                        <h3>Samuel Tarly</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="reservation">
-        <div class="contact-form hidden">
-            <h2 class="heading-secondary">Reservations</h2>
-            <p class="text-primary">Book a table online.</p>
-            <form>
-                <div class="form-field multi-input">
-                    <label for="name" class="text-primary">Name:</label>
-                    <input type="text" id="name" placeholder="Full name..">
-                </div>
-                <div class="form-field input-right">
-                    <label for="phone" class="text-primary">Phone Number:</label>
-                    <input type="number" id="phone" placeholder="Contact number..">
-                </div>
-                <div class="form-field input-right">
-                    <label for="email" class="text-primary">Email Address:</label>
-                    <input type="email" id="email" placeholder="Email address..">
-                </div>
-                <div class="form-field input-right">
-                    <label for="booking" class="text-primary">Date:</label>
-                    <input type="datetime-local" id="booking" value="2019-03-11T15:30" min="2019-02-10T00:00"
-                        max="2019-02-10T00:00">
-                </div>
-                <div class="form-field input-right">
-                    <label for="guests" class="text-primary">Number of Guests:</label>
-                    <input type="number" id="guests" placeholder="Number of guests?">
-                </div>
-                <div class="form-field input-right">
-                    <label for="message" class="text-primary">Message:</label>
-                    <textarea rows="6" id="message"
-                        placeholder="Any special requirements? (allergies etc?)"></textarea>
-                </div>
-                <div class="form-field submit-field">
-                    <button class="btn btn-submit" type="button">Submit</button>
-                </div>
-            </form>
-        </div>
-        <div class="map hidden"></div>
-    </section>
-    <section class="gallery">
-        <div class="container hidden">
-            <h2 class="heading-primary">Gallery</h2>
-            <div class="arrow"></div>
-            <div class="img-grid">
-                <img src="./src/assets/images/gimg1.jpg" alt="A picture of a meal which is a fish.">
-                <img src="./src/assets/images/gimg2.jpg" alt="A picture of a meal which is beef.">
-                <img src="./src/assets/images/gimg3.jpg" alt="A picture of a meal which is a burger cut into half.">
-                <img src="./src/assets/images/gimg4.jpg" alt="A picture of a wine glass next to a bowl on a table.">
-                <img src="./src/assets/images/gimg5.jpg"
-                    alt="A picture of a meal which is chips with cheesey bread and some sauce.">
-                <img src="./src/assets/images/gimg6.jpg" alt="A picture of a meal which is salmon and some vegetables.">
-                <img src="./src/assets/images/gimg7.jpg" alt="A picture of a meal which is Sushi rolls.">
-                <img src="./src/assets/images/gimg8.jpg"
-                    alt="A picture of a meal which is beef and some green vegetables.">
+        </section>
+        <section class="reservation">
+            <div class="contact-form hidden">
+                <h2 class="heading-secondary">Reservations</h2>
+                <p class="text-primary">Book a table online.</p>
+                <form>
+                    <div class="form-field multi-input">
+                        <label for="name" class="text-primary">Name:</label>
+                        <input type="text" id="name" placeholder="Full name.">
+                    </div>
+                    <div class="form-field input-right">
+                        <label for="phone" class="text-primary">Phone Number:</label>
+                        <input type="number" id="phone" placeholder="Contact number.">
+                    </div>
+                    <div class="form-field input-right">
+                        <label for="email" class="text-primary">Email Address:</label>
+                        <input type="email" id="email" placeholder="Email address.">
+                    </div>
+                    <div class="form-field input-right">
+                        <label for="booking" class="text-primary">Date:</label>
+                        <input type="datetime-local" id="booking" value="2019-03-11T15:30" min="2019-02-10T00:00"
+                            max="2019-02-10T00:00">
+                    </div>
+                    <div class="form-field input-right">
+                        <label for="guests" class="text-primary">Number of Guests:</label>
+                        <input type="number" id="guests" placeholder="Number of guests?">
+                    </div>
+                    <div class="form-field input-right">
+                        <label for="message" class="text-primary">Message:</label>
+                        <textarea rows="6" id="message"
+                            placeholder="Any special requirements? (allergies etc?)"></textarea>
+                    </div>
+                    <div class="form-field submit-field">
+                        <button class="btn btn-submit" type="button">Submit</button>
+                    </div>
+                </form>
             </div>
-        </div>
-    </section>
+            <div class="map hidden"></div>
+        </section>
+        <section class="gallery">
+            <div class="container hidden">
+                <h2 class="heading-primary">Gallery</h2>
+                <div class="arrow"></div>
+                <div class="img-grid">
+                    <img src="./src/assets/images/gallery-1-sm.jpg"
+                        srcset="./src/assets/images/gallery-1-sm.jpg 500w,
+                                ./src/assets/images/gallery-1-m.jpg 1200w,
+                                ./src/assets/images/gallery-1-lg.jpg 1500w"
+                        alt="A picture of a yellowtail fish served in a plate.">
+                    <img src="./src/assets/images/gallery-2-sm.jpg" 
+                        srcset="./src/assets/images/gallery-2-sm.jpg 500w,
+                                ./src/assets/images/gallery-2-m.jpg 1200w,
+                                ./src/assets/images/gallery-2-lg.jpg 1500w"
+                        alt="A picture of beef served in a plate.">
+                    <img src="./src/assets/images/gallery-3-sm.jpg" 
+                        srcset="./src/assets/images/gallery-3-sm.jpg 500w,
+                                ./src/assets/images/gallery-3-m.jpg 1200w,
+                                ./src/assets/images/gallery-3-lg.jpg 1500w"
+                        alt="A picture of a burger cut into half served on a plate.">
+                    <img src="./src/assets/images/gallery-4-sm.jpg" 
+                        srcset="./src/assets/images/gallery-4-sm.jpg 500w,
+                                ./src/assets/images/gallery-4-m.jpg 1200w,
+                                ./src/assets/images/gallery-4-lg.jpg 1500w"
+                        alt="A picture of a wine glass next to a bowl on a table.">
+                    <img src="./src/assets/images/gallery-5-sm.jpg"
+                        srcset="./src/assets/images/gallery-5-sm.jpg 500w,
+                                ./src/assets/images/gallery-5-m.jpg 1200w,
+                                ./src/assets/images/gallery-5-lg.jpg 1500w"
+                        alt="A picture of a meal which is chips with cheesey bread and some sauce.">
+                    <img src="./src/assets/images/gallery-6-sm.jpg"
+                        srcset="./src/assets/images/gallery-6-sm.jpg 500w,
+                                ./src/assets/images/gallery-6-m.jpg 1200w,
+                                ./src/assets/images/gallery-6-lg.jpg 1500w"
+                        alt="A picture of a meal which is salmon and some vegetables.">
+                    <img src="./src/assets/images/gallery-7-sm.jpg" 
+                        srcset="./src/assets/images/gallery-7-sm.jpg 500w,
+                                ./src/assets/images/gallery-7-m.jpg 1200w,
+                                ./src/assets/images/gallery-7-lg.jpg 1500w"
+                        alt="A picture of a meal which is Sushi rolls.">
+                    <img src="./src/assets/images/gallery-8-sm.jpg"
+                        srcset="./src/assets/images/gallery-8-sm.jpg 500w,
+                                ./src/assets/images/gallery-8-m.jpg 1200w,
+                                ./src/assets/images/gallery-8-lg.jpg 1500w"
+                        alt="A picture of a meal which is beef and some green vegetables.">
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <ul class="nav hidden">
@@ -157,4 +194,5 @@
         async defer></script>
     <script src="src/js/app.js"></script>
 </body>
+
 </html>
