@@ -70,9 +70,10 @@ h2 {
 }
 
 h3 {
+  padding: 20px 0;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 20px 0;
+  font-weight: 600;
 }
 
 .heading-primary {
@@ -465,44 +466,73 @@ h3 {
   padding: 5px 0;
 }
 
-.team {
+.chef {
   background-image: url("../assets/images/staffbg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.team-img {
-  max-width: 100%;
-  vertical-align: middle;
-  border-radius: 50%;
-  transition: .2s ease-in;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+.chef-card {
+  display: inline-block;
+  margin: 20px 40px;
+  max-width: 400px;
+  color: #000000;
+  text-align: center;
 }
 
-.team-img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
-
-.team-columns {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.team-column {
-  flex: 1;
-  margin: 20px 100px;
-}
-
-@media only screen and (min-width: 530px) {
-  .team-column {
-    margin: 20px 30px;
+@media only screen and (min-width: 768px) {
+  .chef-card {
+    max-width: 200px;
+    margin: 20px 10px;
   }
+}
+
+@media only screen and (min-width: 957px) {
+  .chef-card {
+    max-width: 250px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 1377px) {
+  .chef-card {
+    max-width: 400px;
+    margin: 20px 10px;
+  }
+}
+
+.chef-card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chef-card figcaption {
+  width: 100%;
+  background-color: #FFF;
+  color: #555;
+  padding: 125px 25px 25px;
+  margin-top: -100px;
+  display: inline-block;
+}
+
+.chef-card p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.chef-image {
+  display: inline-block;
+  width: 80%;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+  border: 2px solid #E4BB7A;
+}
+
+.chef-image img {
+  max-width: 100%;
+  vertical-align: top;
 }
 
 .gallery {
