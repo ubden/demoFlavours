@@ -2,36 +2,38 @@
     background: $black;
     grid-column: full-start / full-end;
     padding: 50px;
-}
-.nav {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    align-items: center;
 
-    &__link:link,
-    &__link:visited {
+    .nav {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        align-items: center;
+    
+        &__link:link,
+        &__link:visited {
+            font-size: 14px;
+            color: $white;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 15px 15px;
+            display: block;
+            transition: all .2s;
+        }
+    
+        &__link:hover,
+        &__link:active {
+            background-color: rgba($white, .05);
+            transform: translateY(-.3rem);
+        }
+    }
+    
+    .copyright {
         font-size: 14px;
-        color: $white;
-        text-decoration: none;
-        text-transform: uppercase;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
-        padding: 15px 15px;
-        display: block;
-        transition: all .2s;
+        width: 100%;
     }
-
-    &__link:hover,
-    &__link:active {
-        background-color: rgba($white, .05);
-        transform: translateY(-.3rem);
-    }
-}
-.copyright {
-    font-size: 14px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: 100%;
 }

@@ -3,14 +3,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
 
-.gallery img {
-    max-width: 100%;
+    img {
+      max-width: 100%;
+    }
+
+    img:hover {
+      opacity: 0.5;
+      cursor: pointer;
   }
-.gallery img:hover {
-    opacity: 0.5;
-    cursor: pointer;
 }
 
 .img-grid {

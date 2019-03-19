@@ -10,6 +10,7 @@
         background-image: url("../assets/images/headerbgsm.jpg");
     }
 }
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -17,10 +18,10 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-}
-.main-content p {
-    // padding: 20px 20px 0 20px;
-    font-size: 16px;
+
+    p {
+        font-size: 16px;
+    }
 }
 
 .arrow {
