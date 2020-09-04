@@ -20,7 +20,7 @@
     "autoprefixer": "^9.4.7",
     "clean-css-cli": "^4.2.1",
     "meyer-sass": "^2.0.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
     "postcss-cli": "^6.1.1"
   }
